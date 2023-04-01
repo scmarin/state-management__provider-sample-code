@@ -21,6 +21,7 @@ class SecondPage extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
+                      // display counter value
                       // TODO: put here the Consumer widget
                       Text(
                         "0",
@@ -61,6 +62,7 @@ class SecondPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: GestureDetector(
+                          // previous page button
                           onTap: () {
                             Navigator.pop(context);
                           },

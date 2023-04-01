@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 40),
           child: Row(
             children: [
+              // display counter value
               // TODO: put here the Consumer widget
               Text("0",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
@@ -45,6 +46,7 @@ class HomePage extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Row(
                     children: [
+                      // next page button
                       GestureDetector(
                           onTap: () {
                             Navigator.pushNamed(context, "/second");
